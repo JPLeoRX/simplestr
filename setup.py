@@ -17,6 +17,7 @@ setup_args = dict(
     author="Leo Ertuna",
     author_email="leo.ertuna@gmail.com",
     url="https://github.com/jpleorx/simplestr",
+    download_url='https://pypi.org/project/simplestr/'
 )
 
 
