@@ -25,7 +25,7 @@ pip install --editable .
 
 # Example
 ```python
-from simplestr.simplestr import gen_str, gen_repr
+from simplestr import gen_str, gen_repr
 
 @gen_str
 @gen_repr

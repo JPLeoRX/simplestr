@@ -1,5 +1,6 @@
-from . import simplestr
+from .simplestr import gen_str, gen_repr
 
 __all__ = [
-    'simplestr'
+    'gen_str',
+    'gen_repr'
 ]
