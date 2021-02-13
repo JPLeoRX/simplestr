@@ -22,3 +22,29 @@ git clone https://github.com/jpleorx/simplestr.git
 cd simplestr
 pip install --editable .
 ```
+
+# Example
+```python
+from simplestr.simplestr import gen_str, gen_repr
+
+@gen_str
+@gen_repr
+class Rect:
+    def __init__(self, x: int, y: int, w: int, h: int):
+        self.x = x
+        self.y = y
+        self.w = w
+        self.h = h
+
+rect1 = Rect(1, 2, 3, 4)
+rect2 = Rect(10, 20, 30, 40)
+print(rect1)
+print(rect2)
+print([rect1, rect2])
+```
+
+```
+Rect{x=1, y=2, w=3, h=4}
+Rect{x=10, y=20, w=30, h=40}
+[Rect{x=1, y=2, w=3, h=4}, Rect{x=10, y=20, w=30, h=40}]
+```
