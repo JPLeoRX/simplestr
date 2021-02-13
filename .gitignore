@@ -1,3 +1,8 @@
+# Pip build files
+build
+dist
+simplestr.egg-info
+
 **/target/
 target/*
 *.iml
