@@ -34,7 +34,11 @@ def gen_eq(cls):
                 return False
         return True
 
+    def __hash__(self):
+        return hash(str(self))
+
     cls.__eq__ = __eq__
+    cls.__hash__ = __hash__
     return cls
 
 

@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup_args = dict(
     name='simplestr',
-    version='0.4.1',
+    version='0.5.0',
     description="Simple annotations to automatically generate __str__(self), __repr__(self) and __eq__(self, other) methods in classes",
     keywords=['str', 'repr', 'eq', 'generate', 'automatic', 'annotation'],
     long_description=readme_text,
